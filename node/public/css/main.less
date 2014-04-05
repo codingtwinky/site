@@ -15,18 +15,17 @@
 
 .icons {
   margin-top: 5px;
-}
-
-.icons > a {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin: 10px;
-  vertical-align: middle;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -ms-transition: all .3s;
+  a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+  }
 }
 
 .icons a.twitter { background: url(/site/img/social-icons/twitter.png) left top no-repeat; }
@@ -89,9 +88,11 @@ body {
   }
 }
 
-.indicator > li {
-  width: 30px !important;
-  height: 30px !important;
+.indicator {  
+  li {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
 
 h1 {
@@ -163,126 +164,9 @@ h2 {
   margin-top: 10px;
 }
 
-@media (max-width: 767px) {
-  .affix {
-    margin-top: 0px;
-    position: static !important;
-  }
-  .info {
-    position: static;
-    left: 30px;
-    bottom: 30px;
-    width: 100%;
-  }
-  .info > img {
-    width: 150px;
-    float: right;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 30px;
-    margin-top: -180px;
-  }
-  .title {
-    text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-  .sidebar .nav > .active > ul {
-    display: block;
-  }
-  .sidenav {
-    width: 150px;
-  }
-  .info {
-    position: fixed;
-    width: 150px;
-    top: 340px;
-  }
-  .info > img {
-    width: 150px;
-    float: right;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 30px;
-  }
-  .title {
-    text-align: center;
-  }
-  .sidebar {
-    position: fixed;
-  }
-}
-
-@media (max-width: 445px) {
-  .job-title {
-    width: 150px;
-  }
-}
-
-@media (max-height: 730px) and (min-width: 767px) {
-  .container {
-    margin-top: 0px;
-  }
-  .info > img {
-    display: none;
-  }
-  .info {
-    top: 250px;
-  }
-  .sidebar .nav > .active > ul {
-    display: none;
-  }
-}
-
-.sidenav {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding-top:    10px;
-  padding-bottom: 10px;
-  text-shadow: 0 1px 0 #fff;
-  background-color: #cccccc;
-  box-shadow: 10px 10px 5px #888888;
-  border-radius: 5px;
-}
-
-/* All levels of nav */
-.sidebar .nav > li > a {
-  display: block;
-  color: #716b7a;
-  padding: 5px 20px;
-}
-.sidebar .nav > li > a:hover,
-.sidebar .nav > li > a:focus {
-  text-decoration: none;
-  background-color: #bababa;
-  border-right: 1px solid #dbd8e0;
-}
-.sidebar .nav > .active > a,
-.sidebar .nav > .active:hover > a,
-.sidebar .nav > .active:focus > a {
-  font-weight: bold;
-  color: #563d7c;
-  background-color: #bababa;
-  border-right: 1px solid #563d7c;
-}
-
-/* Nav: second level (shown on .active) */
-.sidebar .nav .nav {
-  display: none; /* Hide by default, but at >768px, show it */
-  margin-bottom: 8px;
-}
-.sidebar .nav .nav > li > a {
-  padding-top:    3px;
-  padding-bottom: 3px;
-  padding-left: 30px;
-  font-size: 90%;
-}
-
 .tech {
-  margin-top: 8px;
+  display: block;
+  margin-top: 10px;
   font-style: italic;
   font-size: 14px;
 }
@@ -296,9 +180,13 @@ h2 {
   text-transform:uppercase;
 }
 
-.connect-list > li > span {
-  position: absolute;
-  left: 220px; 
+.connect-list {
+  li {
+    span {
+      position: absolute;
+      left: 220px; 
+    }
+  }
 }
 
 .citation-needed {
@@ -309,4 +197,29 @@ h2 {
   margin-bottom: 80px;
   width: 100px;
   height: 100px;
+}
+
+.projects {
+  padding-left: 40px;
+  div {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content {
+  p {
+    margin-left: 10px;
+  }
 }

@@ -1,40 +1,6 @@
 .container
     .row
-        .col-sm-3.sidemenu
-          .sidebar.hidden-print
-            ul.nav.sidenav
-              li
-                a(href='#education') Education
-              li
-                a(href='#work') Work
-                ul.nav
-                  li
-                    a(href='#goldman') Goldman Sachs
-                  li
-                    a(href='#sungard') SunGard
-                  li
-                    a(href='#baylor') Baylor
-              li
-                a(href='#github') GitHub
-                ul.nav
-                  li
-                    a(href='#ungit') Ungit
-                  li
-                    a(href='#serenedi') Serenedi
-              li
-                a(href='#skills') Skills
-              li
-                a(href='#languages') Languages
-              li
-                a(href='#interests') Interests
-          .info
-            .title
-              h1 JK Kim
-              .job-title
-                | Analyst Developer at Goldman Sachs
-                br
-            img.portrait(src='http://codingtwinky.com/resume/jk_kim.jpg')
-        .col-sm-9.content.spy-me
+        .col-sm-12.content.spy-me
           .page-header
             h1#education Education
           p
@@ -49,15 +15,15 @@
           h3#goldman
             | Goldman Sachs
             span.date_range
-              | [September 2013 - Current]
+              | [September 2013 - Present]
           p
             | Working as an Analyst Developer for Regulatory Technology team to help Goldman Sach’s trading activities align with US, Europe, Middle East and Asia regulations by providing them software solutions.
             .projects
               h4 GLEW
               div
                 | Global Legal Entity Workstation, an application that processes trades and allow users to monitor Financial Institutional holding portion of Basel regulations.
-              .tech
-                | (Java, Ant, internal libraries)
+                span.tech
+                  | (Java, Ant, internal libraries)
           h3#sungard
             | SunGard
             span.date_range
@@ -68,28 +34,28 @@
               h4 ETAP
               div
                 | A project to help an energy company with Dodd-Frank compliance by sending, receiving, and confirming energy stock trades from ICE, CME, DTCC SDRs and custom stock entries to send them into a stock trade application called ZaiNet now known as Aligne.  This is a tier 1 application with a full disaster recovery readiness.
-              .tech
-                | (Java, JSP, Strut, Spring, Hibernate, PL/SQL, jQuery, Javascript, HTML, Weblogic, XSLT, Quick Fix, CSS, Confirm Hub, Ant)
+                span.tech
+                  | (Java, JSP, Strut, Spring, Hibernate, PL/SQL, jQuery, Javascript, HTML, Weblogic, XSLT, Quick Fix, CSS, Confirm Hub, Ant)
               h4 Relay
               div
                 | A project that is designed to work with ERCOT to manage and maximize power plant resource potential based on demands, usage projections, resource price and other factors.  This is a tier 1 application with a full disaster recovery readiness.
-              .tech
-                | (Java, JSP, Strut, Spring, PL/SQL, jQuery, Javascript, HTML, Weblogic, XSLT, CSS, Ant)
+                span.tech
+                  | (Java, JSP, Strut, Spring, PL/SQL, jQuery, Javascript, HTML, Weblogic, XSLT, CSS, Ant)
               h4 Helios
               div
                 | Extended a web application project to enhance accounting department of SunGard by adding a procurement handling logic and interface.
-              .tech
-                | (C#, .Net, ASP, SQL Server, jQuery, Javascript, HTML)
+                span.tech
+                  | (C#, .Net, ASP, SQL Server, jQuery, Javascript, HTML)
               h4 Huntr
               div
                 | An web application that is designed to play “scavenger hunt” game with mobile devices via geo check ins.
-              .tech
-                | (node.js, jQuery, socket.io, MongoDB, and GoogleMap API)
+                span.tech
+                  | (node.js, jQuery, socket.io, MongoDB, and GoogleMap API)
               h4 Short Term Liquidity
               div
                 | Excel VBA code project to predict stock trade credit flow based on collaterals, thresholds, settlement dates and other factors.
-              .tech
-                | (Excel VBA)
+                span.tech
+                  | (Excel VBA)
           h3#baylor
             | Baylor University
             span.date_range
@@ -99,35 +65,37 @@
             .projects
               h4 Labstat
               div
-                | "A program that tracks each computer's activity and users by having the ability to do system administrative work such as force log off users, limiting user's log in count, messaging and others.
-              .tech
-                | (C#, .Net, SQL Server, PHP)
+                | A program that tracks each computer's activity and users by having the ability to do system administrative work such as force log off users, limiting user's log in count, messaging and others.
+                span.tech
+                  | (C#, .Net, SQL Server, PHP)
               h4 Screen Saver
               div
                 | A screen saver program that is designed to force log off logged on users upon inactivity along with advertisement capability.
-              .tech
-                | (C#, .Net, SQL Server)
+                span.tech
+                  | (C#, .Net, SQL Server)
               h4 Windows 7 upgrade
               div
                 | Upgraded 100+ computers to Windows 7 from Windows XP.  Devised solutions to make most of engineering, computer science, and bio informatics software that had minor issues and developed a batch program that automatically applied upgrades.
-              .tech
-                | (Linux shell)
+                span.tech
+                  | (Linux shell)
           .baylor2BG
           .page-header
             h1#github Github
           .projects
-            h3#ungit Ungit
+            h3#ungit Ungit 
+              | - 
+              a(href='https://github.com/FredrikNoren/ungit') Repo
             div
               | GitHub project that is designed to visualize Git repository and provide friendly interface to users.
-              a(href='https://github.com/FredrikNoren/ungit') Ungit Repository
-              .tech
+              span.tech
                 | (node.js, grunt.js, phantom.js, mocha.js, jQuery, knockout, and socket.io)
             h3#serenedi
-              a(href='http://www.serenedi.com') Serenedi
+              a(href='http://www.serenedi.com') Serenedi 
+              | - 
+              a(href='http://www.github.com/codingtwinky/serenedi') Repo
             div
               | A personal side web application project to display occurring events around a geological location of client based on date, and type.
-              a(href='http://www.github.com/codingtwinky/serenedi') Serenedi Repository
-              .tech
+              span.tech
                 | (jQuery, jQuery-ui, grunt, mocha.js, can.js, node.js, jade, Google Map API, Facebook API, and Eventbrite API)
           .page-header
             h1#skills Skills
@@ -141,7 +109,7 @@
           .page-header
             h1#languages Languages
           p
-            | Human Languages...
+            | [Human Languages]
             ul
               li English
               li Korean
@@ -153,7 +121,7 @@
               li Socket programming
               li Node.js
               li Web application development
-              li Big data
+              li Full stack devlopment
               li Finance industry
               li Cycling
               li Rugby

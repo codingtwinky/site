@@ -1,0 +1,24 @@
+{
+  "name": "codingtwinky",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "CoodingTwinky <twinky@codingtwinky.com>"
+  ],
+  "description": "codingtwinky bower file",
+  "main": "server.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "canjs": "latest",
+    "bootstrap": "latest",
+    "blueimp-bootstrap-image-gallery": "latest",
+    "jquery.slimscroll": "latest"
+  }
+}

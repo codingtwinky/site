@@ -1,0 +1,28 @@
+{
+  "name": "codingtwinky.github.io",
+  "author": "CodingTwinky <twinky@codingtwinky.com>",
+  "description": "Generate html, css, js and etc for codingtwinky.com",
+  "version": "0.0.1",
+  "main": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jade": "latest",
+    "grunt-browserify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-clean": "latest",
+    "path": "latest",
+    "bower": "latest",
+    "express": "~3.4.7",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}

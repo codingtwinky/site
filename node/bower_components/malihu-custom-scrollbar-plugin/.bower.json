@@ -1,0 +1,13 @@
+{
+  "name": "malihu-custom-scrollbar-plugin",
+  "homepage": "https://github.com/malihu/malihu-custom-scrollbar-plugin",
+  "_release": "568617acda",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "568617acda1e1f4bc427d7576acc28e412ab3a88"
+  },
+  "_source": "git://github.com/malihu/malihu-custom-scrollbar-plugin.git",
+  "_target": "*",
+  "_originalSource": "malihu-custom-scrollbar-plugin"
+}

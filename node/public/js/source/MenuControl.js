@@ -1,4 +1,4 @@
-var $ = require("../../../bower_components/jquery/jquery.min.js");
+var $ = require("../../../bower_components/jquery/dist/jquery.js");
 
 var MenuControl = can.Control({
   init: function(element, options) {
@@ -10,6 +10,9 @@ var MenuControl = can.Control({
         break;
       case "#disclaimer":
         $("#disclaimerMenuButton").trigger("click");
+        break;
+      case "#resume":
+        $("#resumeMenuButton").trigger("click");
         break;
       default:
         $("#galleryMenuButton").trigger("click");    
@@ -23,6 +26,10 @@ var MenuControl = can.Control({
   "#disclaimerMenuButton click": function(el, ev) {
     setActive(el);
     $("#content").html(can.view("disclaimerTemplate"), {});
+  },
+  "#resumeMenuButton click": function(el, ev) {
+    setActive(el);
+    $("#content").html(can.view("resumeTemplate"), {});
   }
 });
 exports.MenuControl = MenuControl;

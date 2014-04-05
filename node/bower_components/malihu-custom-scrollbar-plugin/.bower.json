@@ -1,11 +1,47 @@
 {
   "name": "malihu-custom-scrollbar-plugin",
-  "homepage": "https://github.com/malihu/malihu-custom-scrollbar-plugin",
-  "_release": "568617acda",
+  "version": "2.8.3",
+  "title": "malihu custom scrollbar plugin",
+  "description": "Custom scrollbar jQuery plugin that's fully customizable with CSS. Features vertical/horizontal scrolling, mouse-wheel support, scroll easing, adjustable scrollbar height/width, nested scrollbars, user defined callbacks etc.",
+  "main": "./jquery.mCustomScrollbar.js",
+  "keywords": [
+    "jquery",
+    "custom scrollbar",
+    "scrollbar"
+  ],
+  "homepage": "http://manos.malihu.gr/jquery-custom-content-scroller/",
+  "author": {
+    "name": "malihu",
+    "url": "http://manos.malihu.gr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malihu/malihu-custom-scrollbar-plugin.git"
+  },
+  "licenses": [
+    {
+      "type": "GNU LGPL",
+      "url": "http://www.gnu.org/licenses/lgpl.html"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6",
+    "jquery-mousewheel": ">=3.0.6"
+  },
+  "ignore": [
+    "*.md",
+    "*.txt",
+    "*.json",
+    "*.html",
+    "/demo_files",
+    "/source_files",
+    "/js"
+  ],
+  "_release": "2.8.3",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "568617acda1e1f4bc427d7576acc28e412ab3a88"
+    "type": "version",
+    "tag": "2.8.3",
+    "commit": "179ced37ef972b2c44bb4b71d20a6310fa317867"
   },
   "_source": "git://github.com/malihu/malihu-custom-scrollbar-plugin.git",
   "_target": "*",

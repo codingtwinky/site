@@ -1,4 +1,5 @@
-var $ = require('../../bower_components/jquery/jquery.min.js');
+var $ = require('../../bower_components/jquery/dist/jquery.js');
+jQuery = $;
 require('../../bower_components/canjs/can.jquery.js');
 require('../../bower_components/canjs/can.object.js');
 require('../../bower_components/canjs/can.control.plugin.js');

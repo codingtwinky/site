@@ -30,10 +30,6 @@ var MenuControl = can.Control({
   "#resumeMenuButton click": function(el, ev) {
     setActive(el);
     $("#content").html(can.view("resumeTemplate"), {});
-
-    $(".container").scrollspy({
-      target: '.sidebar'
-    });  
   }
 });
 exports.MenuControl = MenuControl;
